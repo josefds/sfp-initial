@@ -138,7 +138,7 @@ $sfp->printRecursively($res);
 
 
 /* Finally, returns an array of randomly generated file paths */
-echo "<hr>Recursively Print the Array Tree:<br>";
+echo "<hr>Generate Random Path Files:<br>";
 /* GENERATE RANDOM FILE PATHS STORED IN AN ARRAY */
 $arr_genpathfiles = $sfp->generateRandomPathfiles("home/user", 5, 3, 3);
 var_dump($arr_genpathfiles);
